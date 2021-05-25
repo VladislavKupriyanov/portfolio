@@ -1,0 +1,62 @@
+.main {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 50px);
+}
+
+.container {
+    padding-top: 80px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.hello {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.full_name {
+    font-size: 85px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--main-color);
+    -webkit-text-fill-color: transparent;
+    padding-top: 40px;
+}
+
+.full_name .first_name {
+    padding-right: 50px;
+}
+
+.full_name .first_letter {
+    font-size: 90px;
+}
+
+.description {
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.stack {
+    font-size: 25px;
+    font-weight: 300;
+    color: #a4a4a4;
+    padding-top: 25px;
+}
+
+.btn {
+    padding-top: 100px;
+}
